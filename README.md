@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+# Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/gineb/tribute/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Responsive Web Design Projects - Build a Tribute Page
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Objective: Build a page that is functionally similar to this: https://codepen.io/freeCodeCamp/full/zNqgVx.
+    
+Fulfill the below user stories and get all of the tests to pass. 
+Use plain HTML and CSS to complete this project. Give it your own personal style. Happy coding!
 
-### Markdown
+## Page Requirements:
+- Build a web page about someone/something that you would like to showcase. It can be about a person, a group, an animal, a place, a characteristic, etc.
+- Display the title of the page in bold and large font.
+- Display at least one photo related to your topic of choice.
+- Provide details about your topic of choice.
+- Quotes (optional).
+- Provide a link to other sites for more information.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Technical Requirements to pass the automated test suite:
+User Story #1: My tribute page should have an element with a corresponding id="main", which contains all other elements.
 
-```markdown
-Syntax highlighted code block
+User Story #2: I should see an element with a corresponding id="title", which contains a string (i.e. text) that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug").
 
-# Header 1
-## Header 2
-### Header 3
+User Story #3: I should see a div element with a corresponding id="img-div".
 
-- Bulleted
-- List
+User Story #4: Within the img-div element, I should see an img element with a corresponding id="image".
 
-1. Numbered
-2. List
+User Story #5: Within the img-div element, I should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in img-div.
 
-**Bold** and _Italic_ and `Code` text
+User Story #6: I should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page.
 
-[Link](url) and ![Image](src)
-```
+User Story #7: I should see an a element with a corresponding id="tribute-link", which links to an outside site that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab (i.e. target="_blank").
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gineb/tribute/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+User Story #9: The img element should be centered within its parent element.
