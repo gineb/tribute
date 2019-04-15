@@ -165,7 +165,9 @@ header{
     height: max-content;
     margin: 20px auto;
 }
-
+dl{
+    padding: 10px;
+}
 dt{
     font-weight: bold;
     color: rgb(158, 158, 207);
@@ -173,7 +175,7 @@ dt{
 dd{
     font-size: 1.2em;
     color: rgb(255, 255, 255);
-    padding-bottom: 15px;
+    padding: 0 15px 15px;
 }
 ul li{
     list-style-type: none;
