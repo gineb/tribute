@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tribute to Mother Teresa</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <header class="main-header">
+    <!-- 2. I should see an element with a corresponding id="title", which contains a string (i.e. text) that describes the subject of the page. -->
+    <div class="img-title-wrapper">
+      <div class="title-wrapper">
+        <h1 id="title">Mother Teresa</h1>
+        <h3>1910–1997</h3>
+        <h4>A symbol of kindess and compassion.</h4>
+      </div>
+      <!-- 3. I should see an element with a corresponding id="img-div". -->
+      <figure id="img-div">
+        <!-- 4. Within the img-div element, I should see an img element with a corresponding id="image". -->
+        <img id="image" src="images/StMotherTeresa.png" alt="Mother Teresa">
+        <!-- 5. Within the img-div element, I should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in img-div. -->
+        <figcaption id="img-caption" class="clear">Photo of Mother Teresa</figcaption>
+      </figure>
+    </div>
+  </header>
+  <!-- 1. My tribute page should have an element with a corresponding id="main", which contains all other elements. -->
+  <main id="main" class="main-container">
+    <!-- 6. I should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page. -->
+    <section id="tribute-info">
+      <!-- class="tribute-article  left-border box-shadow" -->
+      <article id="biography" class="tribute-article box-shadow">
+        <h2 class="box-title vertical left-border">Biography</h2>
+        <div class="content">
+          <p>Mother Teresa was born in 1910 in Skopje, the capital of the Republic of Macedonia. Little is known about
+            her early life, but at a young age, she felt a calling to be a nun and serve through helping the poor. At
+            the age of 18, she was given permission to join a group of nuns in Ireland. After a few months of
+            training, with the Sisters of Loreto, she was then given permission to travel to India. She took her
+            formal religious vows in 1931 and chose to be named after St Therese of Lisieux – the patron saint of
+            missionaries.</p>
+          <br>
+          <p>On her arrival in India, she began by working as a teacher; however, the widespread poverty of Calcutta
+            made a deep impression on her, and this led to her starting a new order called “The Missionaries of
+            Charity”. The primary objective of this mission was to look after people, who nobody else was prepared to
+            look after. </p>
+        </div>
+        <!--content wrapper-->
+
+      </article>
+      <!--biography-->
+      <blockquote class="box-shadow">
+        <q>
+          Kind words can be short and easy to speak, but their echoes are truly endless.
+        </q>
+        <em class="quote-author">-- Mother Teresa</em>
+      </blockquote>
+      <blockquote class="box-shadow">
+        <q>Travelling tirelessly the streets of the entire world. Mother Teresa marked history of our century. This
+          morning, I celebrated, with intimate emotion, Holy Mass for her, unforgettable witness to a love made up of
+          concrete and ceaseless service to the poorest of our brothers.</q>
+        <em class="quote-author">-- Pope John Paul II, 1997</em>
+      </blockquote>
+      <blockquote class="box-shadow">
+        <q>Mother Theresa's death represents an immense loss to the millions touched by her charity. Such one as her
+          has rarely walked the earth.</q>
+        <em class="quote-author">-- President of India, 1997</em>
+      </blockquote>
+    </section>
+    <!--end tribute-info-->
+    <!-- start sidebar -->
+    <section id="sidebar">
+      <article id="quick-facts" class="tribute-article left-border box-shadow">
+        <h2 class="box-title vertical left-border">QUICK FACTS</h2>
+        <dl class="content">
+          <dt>NAME AT BIRTH</dt>
+          <dd>Agnes Gonxha Bojaxhiu</dd>
+          <dt>BIRTH DATE</dt>
+          <dd>August 26, 1910</dd>
+          <dt>PLACE OF BIRTH</dt>
+          <dd>Skopje, Macedonia</dd>
+          <dt>EDUCATION</dt>
+          <dd>Institute of the Blessed Virgin Mary</dd>
+          <dt>OCCUPATION</dt>
+          <dd>Saint, Nun</dd>
+          <dt>DEATH DATE</dt>
+          <dd>September 5, 1997</dd>
+          <dt>PLACE OF DEATH</dt>
+          <dd>Calcutta, India</dd>
+        </dl>
+      </article>
+      <!--end quick facts-->
+      <article id="timeline" class="tribute-article left-border box-shadow">
+        <h2 class="box-title vertical left-border">Timeline</h2>
+        <!-- This div wrapper is necessary to separate the timeline elements from the vertical box title. also defines confines the height of the vertical line so it does not overflow -->
+        <div id="tl-wrapper">
+          <div class="line"></div>
+          <div class="row">
+            <div class="year">1910</div>
+            <div class="circle"></div>
+            <div class="desc">Born to Albanian parents in Skopje, the capital of the Republic of Macedonia. </div>
+          </div>
+
+          <div class="row">
+            <div class="year">1926</div>
+            <div class="circle"></div>
+            <div class="desc">Became a nun.</div>
+          </div>
+
+          <div class="row">
+            <div class="year">1928</div>
+            <div class="circle"></div>
+            <div class="desc">Moved to India and became a teacher then principal.</div>
+          </div>
+          <div class="row">
+            <div class="year">1937</div>
+            <div class="circle"></div>
+            <div class="desc">Named Mother Teresa.</div>
+          </div>
+          <div class="row">
+            <div class="year">1950</div>
+            <div class="circle"></div>
+            <div class="desc">Founded the Missionaries of Charity.</div>
+          </div>
+          <div class="row">
+            <div class="year">1951</div>
+            <div class="circle"></div>
+            <div class="desc">Granted Indian citizenship. Opened first home for the dying.</div>
+          </div>
+          <div class="row">
+            <div class="year">1979</div>
+            <div class="circle"></div>
+            <div class="desc">Awarded the Nobel Peace Prize for her work among the poor.</div>
+          </div>
+          <div class="row">
+            <div class="year">1980</div>
+            <div class="circle"></div>
+            <div class="desc">Visits a Missionaries of Charity house in the Bronx.</div>
+          </div>
+          <div class="row">
+            <div class="year">199o</div>
+            <div class="circle"></div>
+            <div class="desc">Suffering from heart problems.</div>
+          </div>
+          <div class="row">
+            <div class="year">1997</div>
+            <div class="circle"></div>
+            <div class="desc">Dies in Kolkata of heart failure. She was 87.</div>
+          </div>
+          <div class="row">
+            <div class="year">2003</div>
+            <div class="circle"></div>
+            <div class="desc">Pope John Paul II beatifies Mother Theresa, the first step toward sainthood.</div>
+          </div>
+          <div class="row">
+            <div class="year">2016</div>
+            <div class="circle"></div>
+            <div class="desc">Mother Teresa, officially declared a saint at a ceremony held in St. Peter's Square in
+              Vatican City.</div>
+          </div>
+        </div>
+      </article>
+      <!--end timeline-->
+    </section>
+    <!--end sidebar wrapper-->
+  </main>
+  <footer>
+    <h5>You can find more information from the following sites: </h5>
+    <cite class="external-sources">
+      <!-- 7. I should see an a element with a corresponding id="tribute-link", which links to an outside site that contains additional information about the subject of the tribute page. The link should open in a new tab (i.e. target="_blank"). -->
+      <a id="tribute-link" href="https://en.wikipedia.org/wiki/Ifugao" target="_blank">Wikipedia</a>
+      <a href="https://www.biography.com/people/mother-teresa-9504160" target="_blank">Biography.com</a>
+      <a href="https://www.biographyonline.net/nobelprize/mother_teresa.html" target="_blank">Biographyonline.com</a>
+      <a href="https://www.smithsonianmag.com/smart-news/mother-teresa-will-become-official-saint-180957586/"
+        target="_blank">Smithsonian</a>
+    </cite>
+    <div class="back-to-top">
+      <a href="#main"><img src="images/back-to-top.jpg"></a>
+    </div>
+    <em>designed by GN</em>
+  </footer>
+
+  <!-- For running the tests -->
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</body>
+
+</html>
